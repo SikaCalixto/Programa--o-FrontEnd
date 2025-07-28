@@ -1,0 +1,395 @@
+
+
+
+
+@media(max-width: 1200px){
+    header{
+        padding: 0 100px;
+    }
+
+    .about-me-container{
+        height: 700px;
+    }
+
+}
+
+@media(max-width: 972px){
+    .welcome-container{
+    height: 600px;
+    padding-top: 80px;
+    padding-left: 80px;
+}
+
+    .modal{
+        height: 600px;
+    }
+
+    .home-container h1{
+        font-size: 5rem;
+        padding-left: 5px;
+    }
+
+    .avatar-img{
+        width: 350px;
+    }
+
+    }
+
+@media (max-width: 835px){
+    header{
+        padding: 0 20px;
+    }
+
+    li{
+        font-size: 2rem;
+    }
+
+    .welcome-container{
+        width: 100%;
+        height: 900px;
+        display: flex;
+        flex-direction: column;
+        padding-right: 40px;
+        padding-left: 100px;
+    }
+
+    .modal{
+        height: 1000px;
+    }
+
+    .home-container{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .home-container h1{
+        font-size: 5rem;
+    }
+
+    .home-container h3{
+        font-size: 1.5rem;
+    }
+
+    .about-me-container{
+        height: 750px;
+    }
+
+    .about-me{
+        padding-left: 100px;
+        padding-right: 50px;
+        height: 40vh;
+    }
+
+    .habilidades-container{
+        height: 350px
+    }
+
+    .habilidades{
+        padding-left: 40px;
+    }
+
+    .projetos-container{
+        height: 2100px;
+    }
+    
+    .img-contain{
+        grid-template-columns: 1fr;
+    }
+
+    .extras{
+        height: 450px;
+    }
+
+    .hobby{
+        height: 200px;
+    }
+
+    footer{
+        height: 400px;
+    }
+
+    .email{
+        font-size: 3rem;
+    }
+}
+
+@media (max-width: 790px){
+    nav{
+       padding-right: 50px;
+    }
+
+    .linguagens{
+        width: 600px;
+        height: 300px;
+    }
+}
+
+@media (max-width: 716px){
+    .projetos-container{
+        height: 2150px;
+    }
+}
+
+@media (max-width: 690px){
+    .welcome-container{
+        height: 1000px;
+    }
+
+    .modal{
+        height: 1100px;
+    }
+}
+
+@media (max-width: 676px){
+    li{
+        font-size: 1.5rem;
+    }
+
+    .projetos-container{
+        height: 2200px;
+    }
+}
+
+@media (max-width: 638px){
+    .email{
+        font-size: 2.5rem;
+    }
+
+    span{
+        font-size: 1.5rem;
+    }
+
+}
+
+@media (max-width: 600px){
+    .footer-navigation{
+        display: block;
+    }
+    nav{
+        display: none;
+    }
+
+    .welcome-container{
+        height: 1150px ;
+    }
+
+    .modal{
+        height: 1150px;
+    }
+
+    .about-me-container{
+        height: 600px;
+    }
+
+    .about-me{
+        height: 500px;
+    }
+
+    .habilidades{
+        font-size: 1.5rem;
+    }
+
+    .linguagens{
+        width: 450px;
+        height: 210px;
+    }
+
+    .projetos-container{
+        height: 2000px;
+    }
+
+    .projetos-text{
+        font-size: 3rem;
+    }
+
+    .extras{
+        height: 2000px;
+    }
+
+
+    .atividade-contain{
+        display: inline;
+    }
+
+    .hobby{
+        width: 450px;
+        height: 450px;
+    }
+
+    footer{
+        height: 500px;
+    }
+
+    li{
+        color: aliceblue;
+        font-size: 2rem;
+    }
+
+    .email{
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 530px){
+
+    .welcome-container{
+    padding-top: 80px;
+    padding-left: 50px;
+    }
+    .about-me{
+        height: 550px;
+    }
+
+
+}
+
+@media (max-width: 510px){
+
+    .about-me-container{
+        height: 700px;
+    }
+
+    .about-me{
+        height: 600px;
+    }
+
+    .extras{
+        height: 1800px;
+    }
+
+    .hobby{
+        width: 400px;
+        height: 400px;
+    }
+}
+
+@media (max-width: 470px){
+    .welcome-container{
+        height: 1000px;
+    }
+
+    .modal{
+        height: 1000px;
+    }
+
+    .home-container h1{
+        font-size: 4rem;
+    }
+
+    .home-container h3{
+        font-size: 1.5rem;
+    }
+
+    .avatar-img{
+        width: 300px;
+        margin-top: 100px;
+    }
+
+    .about-me-container{
+        height: 600px;
+    }
+
+    .about-me{
+        height: 500px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .habilidades-container{
+        height: 300px;
+    }
+
+    .habilidades{
+        padding-left: 20px;
+    }
+
+    .projetos-container{
+        height: 2100px;
+    }
+
+    .projetos-text{
+        font-size: 2.5rem;
+    }
+
+
+    .extras{
+        height: 1600px;
+    }
+
+    .hobby{
+        width: 350px;
+        height: 350px;
+    }
+}
+
+@media (max-width: 450px){
+    .linguagens{
+        width: 350px;
+        height: 200px;
+    }
+}
+
+@media (max-width: 430px){
+    .hobby{
+        width: 320px;
+        height: 320px;
+    }
+
+    .email{
+        font-size: 1.8rem;
+    }
+
+    span{
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 416px){
+    .welcome-container{
+        height: 1050px;
+    }
+
+    .modal{
+        height: 1050px;
+    }
+
+    .projetos-container{
+        height: 1700px;
+    }
+
+    .card{
+        width: 90%;
+        height: 300px;
+    }
+
+
+}
+
+@media (max-width: 384px){
+
+    .about-me-container{
+        height: 700px;
+    }
+
+    .about-me{
+        height: 600px;
+    }
+
+    .extras{
+        height: 1400px;
+    }
+
+   .hobby{
+       width: 280px;
+       height: 280px;
+   }
+
+   .email{
+    font-size: 1.5rem;
+   }
+
+}
+
+
+
